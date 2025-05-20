@@ -100,7 +100,7 @@ class ChangeTextTest {
         device.findObject(By.res(packageName, "buttonChange")).click()
 
         val result = device.findObject(By.res(packageName, "textToBeChanged")).text
-        assertEquals(result, "Привет, UiAutomator!")
+        assertEquals(result, "Hello UiAutomator!")
     }
 
     @Test
